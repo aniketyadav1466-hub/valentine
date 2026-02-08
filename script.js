@@ -8,7 +8,7 @@ const yesSound = document.getElementById('yesSound');
 const noSound = document.getElementById('noSound');
 
 yesBtn.addEventListener('click', () => {
-    responseText.textContent = 'YAY!! 💖,I was really hoping you'd say yes, Garima ✨';
+    responseText.textContent = 'YAY!! 💖,I was really hoping you would say yes, Garima ✨';
     gif.src = 'https://i.pinimg.com/originals/b4/65/34/b46534530b0ef3ffac6636f068dd2e12.gif';
     yesBtn.style.display = 'none';
     noBtn.style.display = 'none';
@@ -34,7 +34,7 @@ noBtn.addEventListener('mouseover', () => {
 });
 
 noBtn.addEventListener('click', () => {
-    responseText.textContent = 'YAY!! 💖,I was really hoping you'd say yes, Garima ✨';
+    responseText.textContent = 'YAY!! 💖,I was really hoping you would say yes, Garima ✨';
     gif.src = 'https://i.pinimg.com/originals/3e/47/7e/3e477e83c35e2a7a38f19ccdad163faa.gif';
     yesBtn.style.display = 'none';
     noBtn.style.display = 'none';
